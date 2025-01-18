@@ -1,0 +1,44 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Font dan warna global */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Latar belakang abu-abu terang */
+    color: #212529; /* Teks gelap */
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    color: #1f2937; /* Warna judul */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0d6efd; /* Warna biru link */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tombol umum */
+  button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #084298; /* Biru gelap */
+  }
+  
